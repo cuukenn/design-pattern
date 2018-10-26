@@ -1,6 +1,8 @@
 package com.cgg.createpattern.factory.method;
 
-import com.cgg.createpattern.factory.Car;
+import com.cgg.createpattern.factory.method.factory.AodiCarFactory;
+import com.cgg.createpattern.factory.method.factory.BWMCarFactory;
+import com.cgg.createpattern.factory.simple.product.Car;
 
 /**
  * @author cgg cgg244@qq.com

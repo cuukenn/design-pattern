@@ -1,6 +1,6 @@
-package com.cgg.createpattern.factory.method;
+package com.cgg.createpattern.factory.method.factory;
 
-import com.cgg.createpattern.factory.Car;
+import com.cgg.createpattern.factory.simple.product.Car;
 
 /**
  * @author cgg cgg244@qq.com

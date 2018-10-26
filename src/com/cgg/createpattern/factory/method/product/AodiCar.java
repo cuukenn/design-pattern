@@ -1,4 +1,4 @@
-package com.cgg.createpattern.factory;
+package com.cgg.createpattern.factory.method.product;
 
 /**
  * @author cgg cgg244@qq.com
@@ -6,7 +6,7 @@ package com.cgg.createpattern.factory;
  * gitee:www.gitee.com/cgggitee/
  * github:https://github.com/love390/
  */
-public class AodiCar implements Car{
+public class AodiCar implements Car {
     @Override
     public void run() {
         System.out.println("大众");

@@ -1,4 +1,4 @@
-package com.cgg.createpattern.factory;
+package com.cgg.createpattern.factory.method.product;
 
 /**
  * @author cgg cgg244@qq.com

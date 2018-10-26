@@ -1,6 +1,7 @@
 package com.cgg.createpattern.factory.simple;
 
-import com.cgg.createpattern.factory.Car;
+import com.cgg.createpattern.factory.simple.factory.CarFactory;
+import com.cgg.createpattern.factory.simple.product.Car;
 
 /**
  * @author cgg cgg244@qq.com
@@ -11,7 +12,7 @@ import com.cgg.createpattern.factory.Car;
 public class Cosumer {
     public static void main(String[] args) {
         Car car=null;
-        car=CarFactory.produce("宝马");
+        car= CarFactory.produce("宝马");
         car.run();
         car=CarFactory.produce("大众");
         car.run();
